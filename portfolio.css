@@ -1,0 +1,574 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#hero {
+    width: 100%;
+    height: 75vh;
+    background: url(	https://bootstrapmade.com/demo/templates/Lonely/assets/img/hero-bg.jpg
+    ) top center;
+    background-size: cover;
+    padding: 0 15px;
+}
+  .btn-get{
+    font-size: 64px;
+    transition: 0.5s;
+    color: #fff;
+    height: 60px;
+}
+.navbar{
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
+    
+}
+
+.navbar-item {
+    
+    margin-top: 0;
+    
+    box-shadow: 0px 0px 10px 0px #aaa;
+    
+
+}
+
+.about .content .count-box i {
+    display: block;
+    font-size: 36px;
+    color: #eeafca;
+    float: left;
+    line-height: 0;
+
+}
+
+body {
+    
+    font-family: "Playfair Display", serif;
+
+    color: #5a656e;
+    text-transform: capitalize;
+    
+    
+
+}
+.section-bg {
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #d43076;
+    margin-top: 0.3rem;
+    
+}
+
+/* progress bar decoration */
+.skill {
+    list-style: none;
+}
+ .val{
+     float: right;
+     font-style: normal;
+ }
+ .skillz{
+     padding: 10px 0px;
+     display:  block;
+     font-weight: 600;
+     margin: 0 0 6px 0;
+    color: #2c4964;
+}
+ 
+
+.h3{
+    margin: 0.5rem;
+}
+.skill li{
+    margin: 5px 0px;
+    padding: 0.5rem;
+
+}
+.bar{
+    background: #fbeaf1;
+    display: block;
+    height: 0.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    transition: all 0.3s cubic-bezier(.25, .8,.25, 1);
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+
+}
+ .html{
+    background: #dd5a92;
+    width: 100%;
+    animation: html 3s;
+}
+ .css{
+    background: #dd5a92;
+
+    width: 90%;
+    animation: css 3s;
+}
+.javascript{
+    background: #dd5a92;
+
+    width: 70%;
+    animation: javascript 3s;
+}
+.php{
+    background: #dd5a92;
+    width: 90%;
+    animation: php 3s;
+}
+.react{
+    background: #dd5a92;
+    width: 50%;
+    animation: react 3s;
+}
+.laravel{
+    background: #dd5a92;
+    width: 80%;
+    animation: laravel 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 100%;
+
+    }
+
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 90%;
+
+    }
+
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 70%;
+
+    }
+
+}
+
+@keyframes php{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 90%;
+
+    }
+
+}
+
+@keyframes react{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 50%;
+
+    }
+
+}
+
+@keyframes laravel{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 80%;
+
+    }
+
+}
+/* Resume decoration */
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4b7dab;
+    
+}
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #d43076;
+    position: relative;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #d43076;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.resume .resume-item ul li {
+    padding-bottom: 0.5rem;
+}
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4ebf3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+.resume .resume-item h4 {
+
+    font-size: 18px;
+    font-weight: 600;
+     
+}
+/* services decoration */
+.services .icon-box {
+    padding: 20px 15px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 20%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1;
+}
+.services .icon {
+    margin: 0 auto 30px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #d43076;
+    transition: all 0.3s ease-in-out;
+}
+.services .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+}
+
+.services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services .icon-box a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.services .icon-box::before {
+    position: absolute;
+    
+    content: "";
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #d43076;
+    transition: ease-in-out 0.3s;
+    z-index: -1;
+}
+.services .icon-box:hover::before{
+    width: 100%;
+}
+.services .icon-box:hover  .icon,
+.services .icon-box:hover .title,
+.services .icon-box:hover .description,
+.services .icon-box:hover  .icon-box,
+.services .icon-box:hover  i
+{
+    color: white;
+    transform: .3s all ease-in-out;
+
+}
+/* portfolio decoration */
+
+.portfolio #portfolio-filters{
+   
+    list-style: none;
+    padding: 0;
+    
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 8%);
+}
+.portfolio #portfolio-filters li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #5a656e;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+ 
+.portfolio #portfolio-filters  li:hover{
+    color: #d43076;
+    
+    
+}
+
+
+
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-wrap{
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.portfolio-wrap img{
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-info,
+.portfolio-wrap::after{
+    width: 100%;
+    position: absolute;
+  left: 0;
+}
+.portfolio-wrap::after{
+    content: '';
+    height: 100%;
+    top: 0;
+    transition: .5s;
+
+}
+
+.portfolio-wrap:hover::after{
+    background:rgba(44, 73, 100, 0.6); ;
+    
+}
+ .portfolio-wrap .portfolio-info{
+    
+   
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    
+}
+.portfolio-wrap:hover .portfolio-info{
+    opacity: 1;
+}
+
+.portfolio-info{
+    margin-top: 30px;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      
+}
+ 
+
+/* testimonial css */
+.client {
+    width: 100%;
+    height: 100%;
+    color: #d43076;
+
+
+
+}
+
+
+
+.carousel-icon i {
+  font-size: 5rem;
+ color: #d43076;
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: #d43076;
+
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem;
+  color:  #345676;
+
+  height: auto;
+}
+.bgg{
+    background-color: #d43076;
+}
+.bgg:hover{
+    background-color: #345676;
+
+}
+.aftab{
+    color: #345676;
+    font-family: "Playfair Display", serif;
+
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
+}
+
+/* contact decoration */
+.contact .contact-about h3 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #d43076;
+}
+.contact .social-links {
+    padding-bottom: 20px;
+}
+.contact .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    
+    color: #d43076;
+    line-height: 0;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #d43076;
+}
+.contact .info i {
+    font-size: 32px;
+    color: #d43076;
+    line-height: 0;
+    margin-right: 15px;
+}
+
+.contact  button[type=submit] {
+    
+    background: #d43076;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.contact .php-email-form button[type=submit] {
+    background: #d43076;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+#footer {
+    background: #fff;
+    padding: 24px 0;
+    font-size: 14px;
+    box-shadow: 0px 0 20px 0 rgb(0 0 0 / 12%);
+}
+#footer .copyright {
+    text-align: center;
+}
+#footer .credits{
+    text-align: center;
+}
+a {
+    color: #d43076;
+    text-decoration: none;
+}
+
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9999;
+    background: #d43076;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.back-to-top i{
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+
+
+
+
+
